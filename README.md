@@ -1,0 +1,3 @@
+#Appium Configuration for MAC
+
+
