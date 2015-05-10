@@ -11,6 +11,7 @@
     * `export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home`
     * `export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANT_HOME/bin`
 > Note: Change Path according to your Android SDK path in your MAC 
+> If you using [oh.my.zsh](http://ohmyz.sh), then you add above configuration to `.zshrc` file under your User folder. 
 5. 
 
 
