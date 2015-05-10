@@ -15,23 +15,23 @@
         * If you using [oh.my.zsh](http://ohmyz.sh), then you add above configuration to `.zshrc` file under your User folder. 
 5. Run Appium Doctor to confirm there is no error in configuration for iOS and Android.
 6. For the sample output there should be some thing like:    
-    * `Running iOS Checks`
-    `✔ Xcode is installed at /Applications/Xcode.app/Contents/Developer`
-    `✔ Xcode Command Line Tools are installed.`
-    `✔ DevToolsSecurity is enabled.`
-    `✔ The Authorization DB is set up properly.`
-    `✔ Node binary found at /usr/local/bin/node`
-    `✔ iOS Checks were successful.`  
+    * `Running iOS Checks`    
+    `✔ Xcode is installed at /Applications/Xcode.app/Contents/Developer`    
+    `✔ Xcode Command Line Tools are installed.`    
+    `✔ DevToolsSecurity is enabled.`    
+    `✔ The Authorization DB is set up properly.`    
+    `✔ Node binary found at /usr/local/bin/node`    
+    `✔ iOS Checks were successful.`      
    
-    * `Running Android Checks`
-    `✔ ANDROID_HOME is set to "/Users/jmatharu/Desktop/Drive/Applications/Eclipse Android/sdk"`
-    `✔ JAVA_HOME is set to "/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home."`
-    `✔ ADB exists at /Users/jmatharu/Desktop/Drive/Applications/Eclipse Android/sdk/platform-tools/adb`
-    `✔ Android exists at /Users/jmatharu/Desktop/Drive/Applications/Eclipse Android/sdk/tools/android`
-    `✔ Emulator exists at /Users/jmatharu/Desktop/Drive/Applications/Eclipse Android/sdk/tools/emulator`
-    `✔ Android Checks were successful.`  
+    * `Running Android Checks`    
+    `✔ ANDROID_HOME is set to "/Users/jmatharu/Desktop/Drive/Applications/Eclipse Android/sdk"`    
+    `✔ JAVA_HOME is set to "/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home."`    
+    `✔ ADB exists at /Users/jmatharu/Desktop/Drive/Applications/Eclipse Android/sdk/platform-tools/adb`    
+    `✔ Android exists at /Users/jmatharu/Desktop/Drive/Applications/Eclipse Android/sdk/tools/android`    
+    `✔ Emulator exists at /Users/jmatharu/Desktop/Drive/Applications/Eclipse Android/sdk/tools/emulator`    
+    `✔ Android Checks were successful.`      
 
-    `✔ All Checks were successful`
+    `✔ All Checks were successful`    
 
 
 
