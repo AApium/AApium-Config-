@@ -10,6 +10,8 @@
     * `export ANT_HOME=/Users/jmatharu/Desktop/Drive/Applications/ant`
     * `export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home`
     * `export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANT_HOME/bin`
+> Note: Change Path according to your Android SDK path in your MAC 
+5. 
 
 
 
