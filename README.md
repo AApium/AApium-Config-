@@ -33,6 +33,27 @@
 
     `✔ All Checks were successful`    
 
+##Installing via Command Line
+1. Install Node, NPM via [BREW](http://brew.sh)  
+> `$ brew upgrade`   
+`$ brew doctor`   
+`$ brew install node`  
+2. Install Appium: `npm install -g appium`
+3. Now if you get error message stating   
+`Please try running this command again as root/Administrator.`    
+Then don't run above command using `SUDO`, instead run following command first:   
+`$ sudo chmod -R a+w /usr/local`
+4. Now run `npm install -g appium`
+5. To verify that Appium is installed run `appium' in terminal; you should see output like below   
+>`info: Welcome to Appium v1.4.0 (REV 8f63e2f91ef7907aed8bda763f4e5ca08e86970a)`    
+>`info: Appium REST http interface listener started on 0.0.0.0:4723`    
+>`info: Console LogLevel: debug`    
+6. In case you get error message;    
+>`error: Couldn't start Appium REST http interface listener. Requested port is already in use. Please make sure there's no other instance of Appium running already.    
+Then run command `killall node`
+
+
+
 
 
 
