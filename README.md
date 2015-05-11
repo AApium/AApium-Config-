@@ -49,11 +49,5 @@ Then don't run above command using `SUDO`, instead run following command first:
 `info: Appium REST http interface listener started on 0.0.0.0:4723`    
 `info: Console LogLevel: debug`    
 6. In case you get error message;    
-`error: Couldn't start Appium REST http interface listener. Requested port is already in use. Please make sure there's no other instance of Appium running already.    
-Then run command `killall node`
-
-
-
-
-
-
+`error: Couldn't start Appium REST http interface listener. Requested port is already in use. Please make sure there's no other instance of Appium running already.`   
+Then run command:  `killall node`   
