@@ -5,7 +5,7 @@
     1. DownLoad from [Develepor Apple WebSite](https://developer.apple.com)
 3. Follow Instruction from Appium Documentation to install Android SDK. 
 4. Android Configration for `~/.bash_profile` copy and paste below Configurations
-    * User Configuration
+    * <font color='orange'>User Configuration</font>
     * `export ANDROID_HOME=/Users/jmatharu/Desktop/Drive/Applications/Eclipse\ Android/sdk`
     * `export ANT_HOME=/Users/jmatharu/Desktop/Drive/Applications/ant`
     * `export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home`
@@ -14,7 +14,7 @@
         * Change Path according to your Android SDK path in your MAC    
         * If you using [oh.my.zsh](http://ohmyz.sh), then you add above configuration to `.zshrc` file under your User folder. 
 5. Run Appium Doctor to confirm there is no error in configuration for iOS and Android.
-6. For the sample output there should be some thing like:    
+6. <font color='green'>For the sample output there should be some thing like:</font>    
     * `Running iOS Checks`    
     `✔ Xcode is installed at /Applications/Xcode.app/Contents/Developer`    
     `✔ Xcode Command Line Tools are installed.`    
@@ -44,10 +44,10 @@
 Then don't run above command using `SUDO`, instead run following command first:   
 `$ sudo chmod -R a+w /usr/local`
 4. Now run `npm install -g appium`
-5. To verify that Appium is installed run `appium` in terminal; you should see output like below   
-<p style='color:green'>`info: Welcome to Appium v1.4.0 (REV 8f63e2f91ef7907aed8bda763f4e5ca08e86970a)`    
+5. <font color='green'>To verify that Appium is installed run `appium` in terminal; you should see output like below</font>   
+`info: Welcome to Appium v1.4.0 (REV 8f63e2f91ef7907aed8bda763f4e5ca08e86970a)`    
 `info: Appium REST http interface listener started on 0.0.0.0:4723`    
-`info: Console LogLevel: debug`</p>    
-6. In case you get error message;    
+`info: Console LogLevel: debug`
+6. <font color='red'>In case you get error message;</font>    
 `error: Couldn't start Appium REST http interface listener. Requested port is already in use. Please make sure there's no other instance of Appium running already.`   
-Then run command:  `killall node`   
+<font color='orange'>Then run command:</font>  `killall node`   
